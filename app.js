@@ -21,7 +21,8 @@ mongoose.connect("mongodb+srv://tonika:Florida2019@database-ggdmd.mongodb.net/te
   useNewUrlParser: true, 
   useUnifiedTopology: true, 
   useUnifiedTopology: true, 
-  useFindAndModify:false,  
+  useFindAndModify:false,
+  useCreateIndex:true  
 }).then(()=> {
  console.log("Connected to Database");
 }). catch(err => {
