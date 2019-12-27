@@ -24,3 +24,19 @@
 .delete-form {
     display: inline;
 }
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    line-height: 30px;
+    background-color: #e7e7e7;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.absolute {
+    position: absolute;
+}
+.footer p {
+    margin: 0;
+}
