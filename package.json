@@ -2,7 +2,7 @@
   "name": "yelpcamp",
   "version": "1.0.0",
   "engines": {
-    "node": "13.7.0"
+    "node": "12.14.1"
   },
   "main": "app.js",
   "scripts": {
