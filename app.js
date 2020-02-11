@@ -43,7 +43,7 @@ app.locals.moment = require ("moment");
 
 //PASSPORT CONFIG
 app.use(require("express-session")({
-  secret: "Bulgaria",
+  secret: process.env.secretKey,
   resave: false,
   saveUninitialized: false
 }));
